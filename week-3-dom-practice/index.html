@@ -8,17 +8,20 @@
 	</head>
 	
 	<body>
-	  <h1>Todo list</h1>
-	  <h4>1. Take class</h4>
-	  <h4>2. Go out to eat</h4>
+	  <h2>Todo list</h2>
+	  <h2>1. Take class</h2>
+	  <h2>2. Go out to eat</h2>
 	  <div>
 	    <input type="text"></input>
-	    <button>Add Todo</button>
+	    <button onclick="addTodo()">Add Todo</button>
 	  </div>
 	  <script src="script.js"></script>
 	</body>
-	<script>
-        const inputEl = document.querySelector("input");
-        console.log(inputEl)
-    </script>
+	<!-- <script>
+        function addTodo() {
+            const element = document.querySelector("input");
+            const val = element.value;
+            console.log(val);
+        }
+    </script> -->
 </html>
